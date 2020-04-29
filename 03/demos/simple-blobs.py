@@ -8,7 +8,7 @@ from sklearn.datasets import make_blobs
 import numpy as np
 import matplotlib.pyplot as plt
 import os
-os.environ["TF_CPP_MIN_LOG_LEVEL"]="2"
+os.environ["TF_CPP_MIN_LOG_LEVEL"]="2" # so that we dont see the tensor flow warning data
 
 # Helper functions
 

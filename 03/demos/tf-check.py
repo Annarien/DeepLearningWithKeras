@@ -8,5 +8,5 @@ print("Tensorflow version is " + str(tf.__version__))
 
 # verify session works
 hello = tf.constant('Hello from Tensorflow')
-sess = tf.Session()
+sess = tf.compat.v1.Session()
 print(sess.run(hello))
