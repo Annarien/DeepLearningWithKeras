@@ -9,6 +9,7 @@
 # Copy 400 different "cat" files to the data/validate/cat folder, 400 different "dog" files to the data/validate/dog folder.
 
 import os
+import matplotlib.pyplot as plt 
 
 from keras.applications.inception_v3 import InceptionV3, preprocess_input
 from keras.models import Model
